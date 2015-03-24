@@ -136,11 +136,12 @@ select {
   height:100%;
 }
 
-#nextCustomer {
-  position:absolute;
-  left:47%;
-  top:7%;
+.nextCustomerForm {
+  width:100%;
+  height:100%;
+  text-align:center;
 }
+
 
 #payInput {
   width: 5em;

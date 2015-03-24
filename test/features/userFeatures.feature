@@ -25,12 +25,12 @@ Feature: Shopper can delete an item
     When I delete an item from the list
     Then I do not see the item in my list
 
-Feature: Shopper can delete an item
+Feature: Shopper can get correct change
     As a hipster at the coffee shop
     I want to get change from my order
     So that I don't lose money
 
-  Scenario: Delete an item from hipster list
+  Scenario: Get correct change for items
     Given I have an empty hipster list
     When I add an item to the list
     Then I can pay for the total
