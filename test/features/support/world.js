@@ -4,7 +4,7 @@ var zombie = require('zombie')
   , server = require('../../server');
 
 exports.World = function(){
-  this.browser = new zombie.Browser({runScripts:true, debug:false, htmlParser: HTML5});
+  this.browser = new zombie();
 
   this.page = function(path){
    return "http://localhost:" + server.app.address().port + path
